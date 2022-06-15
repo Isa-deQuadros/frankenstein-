@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- Head Tag is what the HTML should know about -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Toy Tale</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+<!-- What is going to show up in the brower web page -->
+  <body>
+
+    <div id = "toy-menu">
+      <!-- Toy Images go here-->
+    </div>
+
+    
+    <div id="toy-header">
+      <img
+        src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png"
+        alt="toy-header"
+      />
+    </div>
+
+
+    <div class="container">
+      <form class="add-toy-form">
+        <h3>Create a toy!</h3>
+
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter a toy's name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter a toy's image URL..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Create Toy"
+          class="submit"
+        />
+      </form>
+    </div>
+
+
+    <p style="text-align:center">
+      Andy needs your help! <button id="new-toy-btn">Show a new toy Form!</button>
+    </p>
+
+    <div id="toy-collection"></div>
+
+    <div id="toy-detail">
+      <img class="toy-image" src="https://media.istockphoto.com/photos/brown-teddy-bear-isolated-in-front-of-a-white-background-picture-id909772478?k=20&m=909772478&s=612x612&w=0&h=mzLuJ7ywrSDHmpchf9spOeNF2Ovr2aQBw1z57Szx17g=" alt="Insert Name Here" />
+      <h2 class="name">Insert Name Here</h2>
+    </div>
+
+
+    <script type="text/javascript" src="src/index.js"></script>
+  </body>
+</html>
