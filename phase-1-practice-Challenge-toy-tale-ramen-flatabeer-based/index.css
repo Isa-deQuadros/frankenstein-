@@ -135,3 +135,36 @@ button:hover {
 #toy-menu img:last-child {
   margin-right: 0;
 }
+
+form {
+  width: 450px;
+  margin: 0 auto 50px auto;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #83f158;
+  color: #fff;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+#review-list li {
+  background-color: #a9f6ff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
